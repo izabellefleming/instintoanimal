@@ -1,0 +1,61 @@
+/* === BASE E VARIÁVEIS === */
+:root {
+  /* 🎨 Paleta de Cores */
+  --cor-primaria: #ffd966;
+  --cor-secundaria: #f9e79f;
+  --cor-destaque: #ffec99;
+  --cor-texto: #5a4b00;
+  --cor-fundo: #fffbea;
+  --cor-card: #fffdf2;
+  --cor-borda: #fff3c4;
+  --cor-hover: #ffff00;
+
+  /* 🧱 Espaçamento (sistema modular) */
+  --esp-8: 8px;
+  --esp-16: 16px;
+  --esp-24: 24px;
+  --esp-32: 32px;
+  --esp-48: 48px;
+  --esp-64: 64px;
+
+  /* 🔤 Tipografia */
+  --fonte-principal: 'Poppins', sans-serif;
+  --tamanho-h1: 2.2rem;
+  --tamanho-h2: 1.8rem;
+  --tamanho-h3: 1.4rem;
+  --tamanho-texto: 1rem;
+  --tamanho-pequeno: 0.9rem;
+}
+
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: var(--cor-texto);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* === UTILITÁRIOS === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--esp-16);
+}
+
+.text-center {
+  text-align: center;
+}
